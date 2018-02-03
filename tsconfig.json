@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [ "es2017", "dom" ],
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "forceConsistentCasingInFileNames": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noEmit": true,
+        "outDir": "out",
+        "plugins": [{
+            "name": "tslint-language-service"
+        }]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ]
+}
